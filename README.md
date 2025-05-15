@@ -25,7 +25,7 @@
 2. 克隆项目到本地
 3. 在项目根目录执行：
    ```bash
-   uv venv
+   uv init
    uv add fastmcp
    uv add pymysql
    ```
