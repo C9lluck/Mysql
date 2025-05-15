@@ -26,7 +26,8 @@
 3. 在项目根目录执行：
    ```bash
    uv venv
-   uv pip install -r requirements.txt
+   uv add fastmcp
+   uv add pymysql
    ```
 
 ## 配置说明
@@ -75,7 +76,7 @@ python Mysql.py
       "command": "uv",
       "args": [
         "--directory",
-        "Mysql.py",
+        "Mysql",
         "run",
         "Mysql.py"
       ],
